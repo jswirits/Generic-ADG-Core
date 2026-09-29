@@ -1,0 +1,34 @@
+schema_version: "1"
+
+core:
+  id: "generic-adg-core"
+  api_version: "1"
+  package_version: "0.1.0"
+  python_requires: ">=3.12"
+  source_authority: "exact_full_git_commit_sha"
+  release_tag_established: false
+
+package:
+  import_name: "generic_adg_core"
+  source_root: "src"
+  primary_module: "generic_adg_core.goal_discovery"
+  runtime_dependencies: []
+
+capabilities:
+  goal_discovery: true
+  initial_goal_approval: true
+  development_readiness: false
+  work_request_contracts: false
+  next_human_gate_complete: false
+
+boundaries:
+  git_access: false
+  project_sot_io: false
+  runtime_journal: false
+  policy_storage_or_evaluation: false
+  process_execution: false
+  provider_or_transport_adapter: false
+  browser_or_aside_adapter: false
+  skill_registry: false
+  product_loader_or_cache: false
+
