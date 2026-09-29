@@ -34,4 +34,3 @@ is not an execution pin. This baseline does not establish a release tag.
 ## License
 
 Licensed under the Apache License, Version 2.0. See `LICENSE`.
-

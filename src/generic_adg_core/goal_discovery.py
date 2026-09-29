@@ -507,4 +507,3 @@ def _parse_optional_mapping(field: str, raw: Any, parser: Any) -> Any:
     if not isinstance(raw, Mapping):
         raise GoalDiscoveryValidationError(f"{field} must be a mapping or None")
     return parser(raw)
-

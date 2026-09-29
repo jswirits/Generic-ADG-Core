@@ -37,4 +37,3 @@ __all__ = [
     "request_goal_approval",
     "resolve_goal_approval",
 ]
-
