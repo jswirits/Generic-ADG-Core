@@ -6,7 +6,10 @@ core:
   package_version: "0.1.0"
   python_requires: ">=3.12"
   source_authority: "exact_full_git_commit_sha"
-  release_tag_established: false
+  release:
+    intended_tag: "v0.1.0"
+    tag_kind: "annotated"
+    github_release_required: false
 
 package:
   import_name: "generic_adg_core"

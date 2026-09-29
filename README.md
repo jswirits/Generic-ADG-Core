@@ -28,8 +28,10 @@ python -m compileall -q src tests
 python -m unittest discover -s tests -p "test_*.py" -v
 ```
 
-An exact full Git commit SHA is the executable source authority. A branch name or package version alone
-is not an execution pin. This baseline does not establish a release tag.
+An exact full Git commit SHA is the executable source authority. A branch name, package version, or tag
+name alone is not an execution pin. The intended release tag for this source is the annotated tag
+`v0.1.0`; its existence and peeled commit must be verified from Git refs rather than cached as mutable
+state in this manifest. A GitHub Release is not required by this baseline.
 
 ## License
 
